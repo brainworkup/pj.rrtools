@@ -1,0 +1,48 @@
+---
+title: "R `rrtools` Project Template"
+author: Joey Trampush
+date: today
+format: 
+  html:
+    code-fold: true
+    df-print: paged
+categories:
+  - Project
+  - Quarto
+  - R
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+execute:
+  echo: false
+  warning: false
+  message: true
+  freeze: auto
+---
+
+```{r}
+library(rrtools)
+```
+
+## `rrtools`
+
+Supposed to be good.
+
+## Run use_compendium() in your project directory
+
+```{r}
+#| eval: false
+
+rrtools::use_compendium()
+```
+
+```{r}
+#| eval: false
+usethis::use_mit_license(copyright_holder = 'Joey Trampush')
+```
+
+**DONE:**\
+- added MIT license

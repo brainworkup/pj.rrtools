@@ -1,0 +1,20 @@
+{
+  "hash": "c50b2071b8c8ee4c26ca3d0b72f9b037",
+  "result": {
+    "markdown": "---\ntitle: \"R `rrtools` Project Template\"\nauthor: Joey Trampush\ndate: today\nformat: \n  html:\n    code-fold: true\n    df-print: paged\ncategories:\n  - Project\n  - Quarto\n  - R\nknitr:\n  opts_chunk: \n    collapse: true\n    comment: \"#>\" \n    R.options:\n      knitr.graphics.auto_pdf: true\nexecute:\n  echo: false\n  warning: false\n  message: true\n  freeze: auto\n---\n\n::: {.cell}\n\n:::\n\n\n## `rrtools`\n\nSupposed to be good.\n\n## Run use_compendium() in your project directory\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n**DONE:**\\\n- added MIT license\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"index_files/libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"index_files/libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
