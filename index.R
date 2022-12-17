@@ -26,6 +26,7 @@ execute:
 ## `rrtools`
 
 ```{r}
+install.packages("tidytable")
 library(rrtools)
 library(arrow)
 library(fastverse)

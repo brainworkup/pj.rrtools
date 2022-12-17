@@ -241,13 +241,12 @@
     },
     "bslib": {
       "Package": "bslib",
-      "Version": "0.4.1.9900",
+      "Version": "0.4.2.9000",
       "Source": "Repository",
       "Repository": "https://rstudio.r-universe.dev",
-      "Remotes": "rstudio/bsicons, rstudio/htmltools, rstudio/shiny,\n        ramnathv/htmlwidgets",
       "RemoteUrl": "https://github.com/rstudio/bslib",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c99f7cb9eb0310b17408617e83d196571b27594a",
+      "RemoteSha": "014b082a66464e2b0953558698d0ae73a4e09158",
       "Requirements": [
         "R",
         "base64enc",
@@ -261,7 +260,7 @@
         "rlang",
         "sass"
       ],
-      "Hash": "84b34332b736dd81809a56118aaaa66b"
+      "Hash": "b867f2cac8dd7f2951ba90d919818dfc"
     },
     "cachem": {
       "Package": "cachem",
@@ -443,14 +442,17 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.14.6",
+      "Version": "1.14.7",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://ropensci.r-universe.dev",
+      "RemoteUrl": "https://github.com/rdatatable/data.table",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "cb8aeff9453acec878e5ab8515cda0d302c943eb",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "aecef50008ea7b57c76f1cb5c127fb02"
+      "Hash": "cb60d18c7f089774810fecec26b32292"
     },
     "desc": {
       "Package": "desc",
@@ -802,29 +804,27 @@
     },
     "htmlwidgets": {
       "Package": "htmlwidgets",
-      "Version": "1.5.4.9001",
+      "Version": "1.6.0",
       "Source": "Repository",
-      "Repository": "https://rstudio.r-universe.dev",
-      "Remotes": "rstudio/htmltools",
-      "RemoteUrl": "https://github.com/ramnathv/htmlwidgets",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "a17dc05776840f1440b36c16c85be72ec429063f",
+      "Repository": "CRAN",
       "Requirements": [
         "grDevices",
         "htmltools",
         "jsonlite",
+        "knitr",
+        "rmarkdown",
         "yaml"
       ],
-      "Hash": "8b1415af7cc8b0517ef3ee01f1fa9d4f"
+      "Hash": "f894e7b76e36258a483c602a786d7270"
     },
     "httpuv": {
       "Package": "httpuv",
-      "Version": "1.6.6.9000",
+      "Version": "1.6.7.9000",
       "Source": "Repository",
       "Repository": "https://rstudio.r-universe.dev",
       "RemoteUrl": "https://github.com/rstudio/httpuv",
       "RemoteRef": "HEAD",
-      "RemoteSha": "093cffa4909d13c246bda90bd3d94feeedfe2af6",
+      "RemoteSha": "a1211dff0baf7250807048cfa216281f83b31731",
       "Requirements": [
         "R",
         "R6",
@@ -833,7 +833,7 @@
         "promises",
         "utils"
       ],
-      "Hash": "9be8987a0dd1d349b764781f4f592751"
+      "Hash": "48546f7a00f9d6e4a540442abe3da40c"
     },
     "httr": {
       "Package": "httr",
@@ -1415,14 +1415,12 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.18.2",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "rmarkdown",
-      "RemoteUsername": "rstudio",
+      "Version": "2.19.1",
+      "Source": "Repository",
+      "Repository": "https://rstudio.r-universe.dev",
+      "RemoteUrl": "https://github.com/rstudio/rmarkdown",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ff1b56df2d182d1e49d92e8419e44f2a659544dc",
+      "RemoteSha": "c5cf10323d684205efcc1b0198fce496fe325fb0",
       "Requirements": [
         "R",
         "bslib",
@@ -1439,7 +1437,7 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "dad65a535e94160d9ebebc69a006fe0c"
+      "Hash": "f49922626a1a2738a934560db99ab3a3"
     },
     "roxygen2": {
       "Package": "roxygen2",
@@ -1582,13 +1580,12 @@
     },
     "shiny": {
       "Package": "shiny",
-      "Version": "1.7.3.9001",
+      "Version": "1.7.4.9000",
       "Source": "Repository",
       "Repository": "https://rstudio.r-universe.dev",
-      "Remotes": "rstudio/htmltools",
       "RemoteUrl": "https://github.com/rstudio/shiny",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e48e9c690402866bfbf8130fa727da8781b3e30d",
+      "RemoteSha": "5eb442aa03c09e759398b76b1124e4c50b9695cc",
       "Requirements": [
         "R",
         "R6",
@@ -1616,7 +1613,7 @@
         "withr",
         "xtable"
       ],
-      "Hash": "1ddffb99ef0ec7d92b4992134ced0fec"
+      "Hash": "f0e015dc41fadabdbd396afaa5d83a33"
     },
     "sourcetools": {
       "Package": "sourcetools",
