@@ -31,6 +31,7 @@ library(arrow)
 library(fastverse)
 ```
 
+
 Supposed to be good.
 
 ## Setup
@@ -68,6 +69,7 @@ rrtools::use_analysis()
 
 ## renv
 renv::init()
+renv::snapshot()
 
 ## docker
 rrtools::use_dockerfile()
