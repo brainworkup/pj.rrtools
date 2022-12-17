@@ -1,7 +1,7 @@
 Package: pj.rrtools
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
     person("Joey", "Trampush", , "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
@@ -14,4 +14,7 @@ Imports:
     rrtools (>= 0.1.5),
     usethis (>= 2.1.6.9000),
     arrow (>= 10.0.1),
-    fastverse (>= 0.3.0)
+    fastverse (>= 0.3.0),
+    here
+Suggests: devtools,
+    git2r

@@ -1,0 +1,18 @@
+{
+  "hash": "d5e586301ec8aa651dba6274a78cfdac",
+  "result": {
+    "markdown": "---\ntitle: \"R `rrtools` Project Template\"\nauthor: Joey Trampush\ndate: today\nformat: \n  html:\n    code-fold: true\n    df-print: paged\ncategories:\n  - Project\n  - Quarto\n  - R\nknitr:\n  opts_chunk: \n    collapse: true\n    comment: \"#>\" \n    R.options:\n      knitr.graphics.auto_pdf: true\nexecute:\n  echo: true\n  warning: false\n  message: true\n  freeze: auto\n---\n\n\n## `rrtools`\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(rrtools)\nlibrary(arrow)\nlibrary(fastverse)\n```\n:::\n\n\nSupposed to be good.\n\n## Setup\n\n### Run use_compendium() in your project directory\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrrtools::use_compendium()\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nusethis::use_mit_license(copyright_holder = 'Joey Trampush')\nrrtools::use_readme_rmd()\n```\n:::\n\n\n**DONE:**\\\n- added MIT license\n\n### periodically do this\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrrtools::add_dependencies_to_description()\n```\n:::\n\n\n### `rrtools::use_analysis()` for analyses\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrrtools::use_analysis()\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"+_index_files/libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"+_index_files/libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

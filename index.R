@@ -58,3 +58,10 @@ rrtools::use_readme_rmd()
 #| eval: false
 rrtools::add_dependencies_to_description()
 ```
+
+### `rrtools::use_analysis()` for analyses
+
+```{r}
+#| eval: false
+rrtools::use_analysis()
+```
