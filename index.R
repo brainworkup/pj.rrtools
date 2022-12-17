@@ -2,7 +2,7 @@
 title: "R `rrtools` Project Template"
 author: Joey Trampush
 date: today
-format: 
+format:
   html:
     code-fold: true
     df-print: paged
@@ -11,9 +11,9 @@ categories:
   - Quarto
   - R
 knitr:
-  opts_chunk: 
+  opts_chunk:
     collapse: true
-    comment: "#>" 
+    comment: "#>"
     R.options:
       knitr.graphics.auto_pdf: true
 execute:
@@ -65,3 +65,9 @@ rrtools::add_dependencies_to_description()
 #| eval: false
 rrtools::use_analysis()
 ```
+
+## renv
+renv::init()
+
+## docker
+rrtools::use_dockerfile()

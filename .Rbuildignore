@@ -1,3 +1,5 @@
+^renv$
+^renv\.lock$
 ^pj\.rrtools\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
@@ -8,3 +10,5 @@
 ^\.binder/Dockerfile$
 ^\.binder$
 analysis
+^Dockerfile$
+^render-in-docker\.yaml$
