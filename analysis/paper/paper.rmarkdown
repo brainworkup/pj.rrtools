@@ -80,6 +80,8 @@ Here is a citation [@Marwick2017]
 #| label: get-data
 #| eval: false
 # Note the path that we need to use to access our data files when rendering this document
+library(languageserver)
+library(httpgd)
 my_data <- read.csv(here::here('analysis/data/raw_data/my_csv_file.csv'))
 ```
 
