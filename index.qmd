@@ -17,21 +17,25 @@ knitr:
     R.options:
       knitr.graphics.auto_pdf: true
 execute:
-  echo: false
+  echo: true
   warning: false
   message: true
   freeze: auto
 ---
 
+## `rrtools`
+
 ```{r}
 library(rrtools)
+library(arrow)
+library(fastverse)
 ```
-
-## `rrtools`
 
 Supposed to be good.
 
-## Run use_compendium() in your project directory
+## Setup
+
+### Run use_compendium() in your project directory
 
 ```{r}
 #| eval: false
@@ -42,7 +46,15 @@ rrtools::use_compendium()
 ```{r}
 #| eval: false
 usethis::use_mit_license(copyright_holder = 'Joey Trampush')
+rrtools::use_readme_rmd()
 ```
 
 **DONE:**\
 - added MIT license
+
+### periodically do this
+
+```{r}
+#| eval: false
+rrtools::add_dependencies_to_description()
+```

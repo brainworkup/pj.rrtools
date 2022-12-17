@@ -1,7 +1,7 @@
 {
-  "hash": "c50b2071b8c8ee4c26ca3d0b72f9b037",
+  "hash": "2f4c65daa582500629be05206a21ab20",
   "result": {
-    "markdown": "---\ntitle: \"R `rrtools` Project Template\"\nauthor: Joey Trampush\ndate: today\nformat: \n  html:\n    code-fold: true\n    df-print: paged\ncategories:\n  - Project\n  - Quarto\n  - R\nknitr:\n  opts_chunk: \n    collapse: true\n    comment: \"#>\" \n    R.options:\n      knitr.graphics.auto_pdf: true\nexecute:\n  echo: false\n  warning: false\n  message: true\n  freeze: auto\n---\n\n::: {.cell}\n\n:::\n\n\n## `rrtools`\n\nSupposed to be good.\n\n## Run use_compendium() in your project directory\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n**DONE:**\\\n- added MIT license\n",
+    "markdown": "---\ntitle: \"R `rrtools` Project Template\"\nauthor: Joey Trampush\ndate: today\nformat: \n  html:\n    code-fold: true\n    df-print: paged\ncategories:\n  - Project\n  - Quarto\n  - R\nknitr:\n  opts_chunk: \n    collapse: true\n    comment: \"#>\" \n    R.options:\n      knitr.graphics.auto_pdf: true\nexecute:\n  echo: true\n  warning: false\n  message: true\n  freeze: auto\n---\n\n\n## `rrtools`\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(rrtools)\nlibrary(arrow)\nlibrary(fastverse)\n```\n:::\n\n\nSupposed to be good.\n\n## Setup\n\n### Run use_compendium() in your project directory\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrrtools::use_compendium()\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nusethis::use_mit_license(copyright_holder = 'Joey Trampush')\nrrtools::use_readme_rmd()\n```\n:::\n\n\n**DONE:**\\\n- added MIT license\n\n### periodically do this\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrrtools::add_dependencies_to_description()\n```\n:::\n",
     "supporting": [
       "index_files"
     ],
