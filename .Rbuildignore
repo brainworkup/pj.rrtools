@@ -12,3 +12,4 @@
 analysis
 ^Dockerfile$
 ^render-in-docker\.yaml$
+^Makefile$
