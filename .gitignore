@@ -6,3 +6,5 @@
 /.quarto/
 
 /.luarc.json
+
+.x/
