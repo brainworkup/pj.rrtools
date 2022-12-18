@@ -27,6 +27,7 @@ execute:
 
 ```{r}
 install.packages("tidytable")
+install.packages(c("yaml", "languageserver", "httpgd", "quarto"))
 library(rrtools)
 library(arrow)
 library(fastverse)
